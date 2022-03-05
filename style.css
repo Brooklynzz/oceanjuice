@@ -2,7 +2,7 @@ header {
     height: 10vh;
 }
 nav {
-    background: #4EE6E0;
+    background: #39beba;
     height: 100%;
     display: flex;
     justify-content: flex-end;
@@ -33,7 +33,7 @@ nav button:hover {
 }
 
 #intro {
-    background: linear-gradient(#4EE6E0, #F25D27 );
+    background: linear-gradient(#39beba, #F25D27 );
     width: 100%;
     height: 70vh;
     display: flex;
@@ -102,7 +102,7 @@ strong {
 .content button { 
     width: 100%;
     position: relative;
-    margin-top: 8em;
+    margin-top: 2.5em;
     background: none;
     border: none;
     color: #FFFFFF;
@@ -131,4 +131,9 @@ footer img {
     margin-top: 2em;
     height: 250px;
     width: 400px;
+}
+
+.content img {
+    margin-top: 1.5em;
+    width: 150px;
 }
