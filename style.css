@@ -1,0 +1,102 @@
+header {
+    height: 10vh;
+}
+nav {
+    background: #4EE6E0;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav button {
+    margin: 0 1em 0 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+nav button:hover {
+    background-color: #04615E;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#nav-logo {
+    position: absolute;
+    left: 0;
+    margin: 1em 0 0 1em;
+    width: 200px;
+
+}
+
+#intro {
+    background: linear-gradient(#4EE6E0, #F25D27 );
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    text-align: start;
+}
+
+/* .intro-header {
+    color: white;
+    font-size: 10px;
+} */
+
+.intro-header {
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    width: 50%;
+    margin-top: 2em;
+    text-shadow: 5px 5px rgba(126, 126, 126, 0.221);
+}
+
+strong {
+    font-size: 180px;
+
+}
+
+#intro-image {
+    width: 600px;
+    position: relative;
+}
+
+#flavours {
+    background: #F25D27;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: flex-end;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    font-family: 'Alfa Slab One', cursive;
+    border: 5px solid white;
+    border-radius: 5px 20px 50px 5px;
+    color: white;
+    margin-right: 3em;
+    padding: 1em;
+    font-size: 40px;
+    max-height: 50%;
+}
+
+.content button {
+    margin: 0 1em 0 0;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.content button:hover {
+    background-color: #04615E;
+    border-radius: 15px;
+    cursor: pointer;
+}
