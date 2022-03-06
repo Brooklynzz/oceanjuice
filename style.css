@@ -1,3 +1,8 @@
+html {
+   /* width: 1900px;  */
+   background-color: #F25D27;
+}
+
 header {
     height: 10vh;
 }
@@ -34,7 +39,7 @@ nav button:hover {
 
 #intro {
     background: linear-gradient(#39beba, #F25D27 );
-    width: 100%;
+    width: 1900px;
     height: 70vh;
     display: flex;
     justify-content: flex-end;
@@ -56,6 +61,7 @@ nav button:hover {
 }
 
 strong {
+    width: auto;
     font-size: 180px;
 
 }
@@ -79,7 +85,7 @@ strong {
 #flavours {
     background: #F25D27;
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: flex-end;
     text-align: start;
@@ -102,7 +108,7 @@ strong {
 .content button { 
     width: 100%;
     position: relative;
-    margin-top: 2.5em;
+    margin-top: 0.5em;
     background: none;
     border: none;
     color: #FFFFFF;
@@ -115,6 +121,56 @@ strong {
     background-color: #F25D27;
     border-radius: 15px;
     cursor: pointer;
+}
+
+#cards-feedback {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback {
+    margin: 0 5em 5em 0;
+    width: 350px;
+    height: 450px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#h2-back {
+    background-color: rebeccapurple;
+    width: 10%;
+}
+
+.feedback h2 {
+    z-index: 1;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 0.5em;
+    font-family: 'Lato', sans-serif;
+    color: #276B73;
+}
+
+.feedback p {
+    text-align: justify;
+    font-size: 20px;
+    margin: 2.5em 1em 0 1em;
+    font-family: 'Lato', sans-serif;
+    color: #276B73;
+}
+
+.h2-back {
+    display: block;
+    background-color: #276B73;
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 45px;
+}
+
+.feedback img {
+    border: 5px solid #276B73;
+    border-radius: 50%;
+    width: 150px;
+    margin: 3em 5em 1em 5em;
 }
 
 #footer-background {
@@ -136,4 +192,72 @@ footer img {
 .content img {
     margin-top: 1.5em;
     width: 150px;
+}
+
+@media screen and (max-width: 480px) {
+    header, nav, footer, body, html {
+        width: auto;
+    }
+    #intro, #footer-background {
+        width: auto;
+    }
+    #flavours  {
+        flex-wrap: wrap;
+        height: 200vh;
+        overflow: visible;
+    }
+    #nav-logo {
+        width: 75px;
+    }
+    nav button {
+        font-size: 15px;
+    }
+    .intro-header {
+        margin: 2em 0 5em 1em;
+        font-size: 30px;
+    }
+    #intro {
+        height: 50vh;
+        justify-content: flex-start;
+    }
+    strong {
+        font-size: 50px;
+    }
+    #intro-image {
+        position: absolute;
+        right: 0;
+        margin-top: 5em;
+        width: 200px;
+    }
+    #new {
+        margin: auto;
+    }
+    .content {
+        margin-left: 3em;
+    }
+    .content button {
+        margin: auto;   
+    }
+    .content img {
+        width: 100px;
+        margin: 0.5em 0 0.5em 0; 
+    }
+    #cards-feedback {
+        flex-wrap: wrap;
+        margin: 3em 0 0 5em;
+    }
+    #footer-background {
+        margin-top: 1em;
+    }
+    footer img {
+        width: 250px;
+        height: 200px;
+    }
+    .feedback p {
+        text-align: center;
+    }
+    .feedback img {
+        margin: 1em 5em 1em 5em;
+    }
+    
 }
