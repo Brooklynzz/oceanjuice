@@ -34,6 +34,7 @@ nav button:hover {
     left: 0;
     margin: 1em 0 0 1em;
     width: 200px;
+    cursor: pointer;
 
 }
 
@@ -104,6 +105,8 @@ strong {
     font-size: 40px;
     max-height: 40%;
     text-align: center;
+    transition: 0.5s;
+    
 }
 .content button { 
     width: 100%;
@@ -117,6 +120,9 @@ strong {
     font-family: 'Alfa Slab One', cursive;
 }
 
+.content:hover {
+    box-shadow: 10px 10px #4b4b4b;
+}
 .content button:hover {
     background-color: #F25D27;
     border-radius: 15px;
@@ -258,6 +264,19 @@ footer img {
     }
     .feedback img {
         margin: 1em 5em 1em 5em;
+    }  
+}
+
+@media screen and (width: 2560px) {
+    #intro-image {
+        position: absolute;
+        right: 0;
     }
-    
+    #intro {
+        width: 100%;
+    }
+    .intro-header {
+        position: relative;
+        right: 25%;
+    }
 }
